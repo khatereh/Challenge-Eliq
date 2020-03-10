@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		2279FE0C2417E19100EC87B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE0B2417E19100EC87B3 /* AppDelegate.swift */; };
 		2279FE0E2417E19100EC87B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE0D2417E19100EC87B3 /* SceneDelegate.swift */; };
-		2279FE102417E19100EC87B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE0F2417E19100EC87B3 /* ViewController.swift */; };
+		2279FE102417E19100EC87B3 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE0F2417E19100EC87B3 /* DetailVC.swift */; };
 		2279FE132417E19100EC87B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2279FE112417E19100EC87B3 /* Main.storyboard */; };
 		2279FE152417E19800EC87B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2279FE142417E19800EC87B3 /* Assets.xcassets */; };
 		2279FE182417E19800EC87B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2279FE162417E19800EC87B3 /* LaunchScreen.storyboard */; };
+		2279FE212417E56000EC87B3 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE202417E56000EC87B3 /* SearchVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2279FE082417E19100EC87B3 /* Challenge-Eliq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge-Eliq.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2279FE0B2417E19100EC87B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2279FE0D2417E19100EC87B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2279FE0F2417E19100EC87B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2279FE0F2417E19100EC87B3 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		2279FE122417E19100EC87B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2279FE142417E19800EC87B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2279FE172417E19800EC87B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2279FE192417E19800EC87B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2279FE202417E56000EC87B3 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		2279FE0A2417E19100EC87B3 /* Challenge-Eliq */ = {
 			isa = PBXGroup;
 			children = (
+				2279FE1F2417E53A00EC87B3 /* Controller */,
 				2279FE0B2417E19100EC87B3 /* AppDelegate.swift */,
 				2279FE0D2417E19100EC87B3 /* SceneDelegate.swift */,
-				2279FE0F2417E19100EC87B3 /* ViewController.swift */,
 				2279FE112417E19100EC87B3 /* Main.storyboard */,
 				2279FE142417E19800EC87B3 /* Assets.xcassets */,
 				2279FE162417E19800EC87B3 /* LaunchScreen.storyboard */,
 				2279FE192417E19800EC87B3 /* Info.plist */,
 			);
 			path = "Challenge-Eliq";
+			sourceTree = "<group>";
+		};
+		2279FE1F2417E53A00EC87B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2279FE202417E56000EC87B3 /* SearchVC.swift */,
+				2279FE0F2417E19100EC87B3 /* DetailVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2279FE102417E19100EC87B3 /* ViewController.swift in Sources */,
+				2279FE212417E56000EC87B3 /* SearchVC.swift in Sources */,
+				2279FE102417E19100EC87B3 /* DetailVC.swift in Sources */,
 				2279FE0C2417E19100EC87B3 /* AppDelegate.swift in Sources */,
 				2279FE0E2417E19100EC87B3 /* SceneDelegate.swift in Sources */,
 			);
