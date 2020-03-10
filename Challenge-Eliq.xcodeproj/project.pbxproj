@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2201274C24180B1400A9B08C /* ChallengeEliq.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2201274A24180B1400A9B08C /* ChallengeEliq.xcdatamodeld */; };
 		2279FE0C2417E19100EC87B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE0B2417E19100EC87B3 /* AppDelegate.swift */; };
 		2279FE0E2417E19100EC87B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE0D2417E19100EC87B3 /* SceneDelegate.swift */; };
 		2279FE102417E19100EC87B3 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE0F2417E19100EC87B3 /* DetailVC.swift */; };
@@ -14,9 +15,15 @@
 		2279FE152417E19800EC87B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2279FE142417E19800EC87B3 /* Assets.xcassets */; };
 		2279FE182417E19800EC87B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2279FE162417E19800EC87B3 /* LaunchScreen.storyboard */; };
 		2279FE212417E56000EC87B3 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE202417E56000EC87B3 /* SearchVC.swift */; };
+		2279FE302417F03C00EC87B3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE2F2417F03C00EC87B3 /* Constants.swift */; };
+		2279FE322417F04700EC87B3 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE312417F04700EC87B3 /* Company.swift */; };
+		2279FE342417F05600EC87B3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE332417F05600EC87B3 /* APIManager.swift */; };
+		2279FE362417FFC700EC87B3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279FE352417FFC700EC87B3 /* Extensions.swift */; };
+		F6B4EA471ECD0E824285C11B /* Pods_Challenge_Eliq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB754503A73A2237E1BFE9E /* Pods_Challenge_Eliq.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2201274B24180B1400A9B08C /* Results.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Results.xcdatamodel; sourceTree = "<group>"; };
 		2279FE082417E19100EC87B3 /* Challenge-Eliq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge-Eliq.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2279FE0B2417E19100EC87B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2279FE0D2417E19100EC87B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,13 @@
 		2279FE172417E19800EC87B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2279FE192417E19800EC87B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2279FE202417E56000EC87B3 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		2279FE2F2417F03C00EC87B3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2279FE312417F04700EC87B3 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		2279FE332417F05600EC87B3 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2279FE352417FFC700EC87B3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5DB754503A73A2237E1BFE9E /* Pods_Challenge_Eliq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Challenge_Eliq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AC0C4E40165EF1AEF6519B /* Pods-Challenge-Eliq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-Eliq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Challenge-Eliq/Pods-Challenge-Eliq.debug.xcconfig"; sourceTree = "<group>"; };
+		F74D10E62CFC27926C738BD2 /* Pods-Challenge-Eliq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-Eliq.release.xcconfig"; path = "Pods/Target Support Files/Pods-Challenge-Eliq/Pods-Challenge-Eliq.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B4EA471ECD0E824285C11B /* Pods_Challenge_Eliq.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,8 @@
 			children = (
 				2279FE0A2417E19100EC87B3 /* Challenge-Eliq */,
 				2279FE092417E19100EC87B3 /* Products */,
+				991C12459DF4DB4C2126C1EC /* Pods */,
+				9EE7C1E9585B99E3601A26E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +75,9 @@
 		2279FE0A2417E19100EC87B3 /* Challenge-Eliq */ = {
 			isa = PBXGroup;
 			children = (
+				2279FE2E2417F02700EC87B3 /* Services */,
+				2279FE2D2417F01E00EC87B3 /* Utils */,
+				2279FE2C2417F01000EC87B3 /* Model */,
 				2279FE1F2417E53A00EC87B3 /* Controller */,
 				2279FE0B2417E19100EC87B3 /* AppDelegate.swift */,
 				2279FE0D2417E19100EC87B3 /* SceneDelegate.swift */,
@@ -65,6 +85,7 @@
 				2279FE142417E19800EC87B3 /* Assets.xcassets */,
 				2279FE162417E19800EC87B3 /* LaunchScreen.storyboard */,
 				2279FE192417E19800EC87B3 /* Info.plist */,
+				2201274A24180B1400A9B08C /* ChallengeEliq.xcdatamodeld */,
 			);
 			path = "Challenge-Eliq";
 			sourceTree = "<group>";
@@ -78,6 +99,48 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		2279FE2C2417F01000EC87B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2279FE312417F04700EC87B3 /* Company.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2279FE2D2417F01E00EC87B3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2279FE2F2417F03C00EC87B3 /* Constants.swift */,
+				2279FE352417FFC700EC87B3 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2279FE2E2417F02700EC87B3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2279FE332417F05600EC87B3 /* APIManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		991C12459DF4DB4C2126C1EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4AC0C4E40165EF1AEF6519B /* Pods-Challenge-Eliq.debug.xcconfig */,
+				F74D10E62CFC27926C738BD2 /* Pods-Challenge-Eliq.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EE7C1E9585B99E3601A26E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DB754503A73A2237E1BFE9E /* Pods_Challenge_Eliq.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2279FE1C2417E19800EC87B3 /* Build configuration list for PBXNativeTarget "Challenge-Eliq" */;
 			buildPhases = (
+				85595905F276E8C1E21F9963 /* [CP] Check Pods Manifest.lock */,
 				2279FE042417E19100EC87B3 /* Sources */,
 				2279FE052417E19100EC87B3 /* Frameworks */,
 				2279FE062417E19100EC87B3 /* Resources */,
+				6A472D84C574AD0F34789269 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,15 +209,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A472D84C574AD0F34789269 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Challenge-Eliq/Pods-Challenge-Eliq-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Challenge-Eliq/Pods-Challenge-Eliq-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85595905F276E8C1E21F9963 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Challenge-Eliq-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2279FE042417E19100EC87B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2279FE302417F03C00EC87B3 /* Constants.swift in Sources */,
 				2279FE212417E56000EC87B3 /* SearchVC.swift in Sources */,
 				2279FE102417E19100EC87B3 /* DetailVC.swift in Sources */,
+				2279FE362417FFC700EC87B3 /* Extensions.swift in Sources */,
 				2279FE0C2417E19100EC87B3 /* AppDelegate.swift in Sources */,
 				2279FE0E2417E19100EC87B3 /* SceneDelegate.swift in Sources */,
+				2279FE322417F04700EC87B3 /* Company.swift in Sources */,
+				2279FE342417F05600EC87B3 /* APIManager.swift in Sources */,
+				2201274C24180B1400A9B08C /* ChallengeEliq.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +405,7 @@
 		};
 		2279FE1D2417E19800EC87B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AC0C4E40165EF1AEF6519B /* Pods-Challenge-Eliq.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,6 +424,7 @@
 		};
 		2279FE1E2417E19800EC87B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74D10E62CFC27926C738BD2 /* Pods-Challenge-Eliq.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -350,6 +463,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2201274A24180B1400A9B08C /* ChallengeEliq.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2201274B24180B1400A9B08C /* Results.xcdatamodel */,
+			);
+			currentVersion = 2201274B24180B1400A9B08C /* Results.xcdatamodel */;
+			path = ChallengeEliq.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2279FE002417E19100EC87B3 /* Project object */;
 }
